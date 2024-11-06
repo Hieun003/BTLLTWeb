@@ -1,0 +1,146 @@
+﻿* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#hang {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1300px;
+    height: 100%;
+}
+
+.gio_hang {
+    overflow: auto;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .product-table th, .product-table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+    .product-table td {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+    }
+    .product-table th {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between; 
+        text-align:center;
+    }
+
+    .product-table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+#item {
+    max-width: 100%;
+    height:80px;
+}
+td>img{
+    width:30%;
+}
+#xoa {
+    max-width: 100%;
+    height: auto;
+}
+
+.capnhat {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+    .capnhat button {
+        height: 30px;
+        width: 150px;
+        box-shadow: 2px 2px 4px #ddd;
+        border: 1px solid #ddd;
+    }
+    .capnhat a {
+        display: flex;
+        height: 30px;
+        width: 150px;
+        border: 1px solid #ddd;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        box-shadow: 2px 2px 4px #ddd;
+    }
+.tongtien {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tong {
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px #ddd;
+    padding: 20px;
+    width: 500px;
+}
+
+.tongtien .shoptotalprice {
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px #ddd;
+    height: 50px;
+    width: 70%;
+}
+
+    .tongtien .shoptotalprice .total > td {
+        margin-right: 30px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .tongtien .shoptotalprice .total > th {
+        margin-right: 30px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+.checkout {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+    .checkout > a {
+        text-decoration: none;
+        background-color: orange;
+        height: 30px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        border-radius: 10px;
+    }
+
+.footer .box .quick-mneu {
+    padding-right: 140px;
+}

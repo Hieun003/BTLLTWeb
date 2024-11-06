@@ -1,0 +1,30 @@
+﻿.footer {
+    width: 100%;
+    background-color: var(--darkBlack);
+    height: 322px;
+    color: var(--mainColor);
+    padding: 57px 63px 0px 63px;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .footer .box {
+        width: 250px;
+    }
+
+        .footer .box p {
+            padding-top: 20px;
+        }
+
+        .footer .box .quick-mneu {
+            margin-top: 40px;
+        }
+
+            .footer .box .quick-mneu .item {
+                margin-bottom: 12px;
+            }
+
+                .footer .box .quick-mneu .item a {
+                    color: var(--mainColor);
+                    text-decoration: none;
+                }
